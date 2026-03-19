@@ -18,3 +18,6 @@ docker run -d -p 8080:8080 --name miniweb-container miniweb
 
 #Auf Webseite zugreifen
 http://localhost:8080/
+
+#Container Löschen
+docker rm -f miniweb-container
