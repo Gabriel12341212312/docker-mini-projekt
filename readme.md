@@ -12,3 +12,9 @@ Eine einfache statische Website, die in einem Docker-Container läuft.
 ## Docker Image bauen
 ```bash
 docker build -t miniweb .
+
+## Container Starten
+docker run -d -p 8080:8080 --name miniweb-container miniweb
+
+#Auf Webseite zugreifen
+http://localhost:8080/
